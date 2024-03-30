@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'MorrisRomanBlackAlt';
+            src: url('fontes/MorrisRomanBlack.otf'), url(fontes/MorrisRomanBlack.ttf) format('opentype') ;
+            font-weight: normal;
+            font-style: normal;
+
+            /* tipos de format()
+            + opentype (otf)
+            + truetype (ttf)
+            + embedded-opentype
+            + truetype-aat (Apple advanced Typography)
+            +svg
+            */
+
+        }
+        body {
+            font-family: 'MorrisRomanBlackAlt';
+        }
+
+        h1 {
+        font-family: 'MorrisRomanBlackAlt', Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aspernatur ducimus quidem excepturi illum voluptas cum vero enim inventore eligendi mollitia perspiciatis fugiat asperiores, fugit consequuntur soluta maxime sint. Corrupti.</p>
+    
+</body>
+</html>
