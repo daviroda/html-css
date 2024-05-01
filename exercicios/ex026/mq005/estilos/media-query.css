@@ -8,4 +8,13 @@
     menu {
         display: block;
     }
+
+    menu li {
+        display: inline-block;
+        width: 100px;
+    }
+
+    main {
+        width: 768px;
+    }
 }
