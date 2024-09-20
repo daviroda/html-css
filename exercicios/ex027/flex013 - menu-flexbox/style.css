@@ -18,18 +18,40 @@ header {
     background-color: gray;
     color: white;
     padding: 15px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     margin-bottom: 10px;
+    flex: 0 0 200px;
 }
 
 header > nav {
     margin-bottom: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 5px;
     text-decoration: none;
+    text-align: center;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
 }
 
 main {
